@@ -140,3 +140,7 @@ if "%1"=="pole" pole.exe
 if "%1"=="patriot" Echo Downloading Patriot
 if "%1"=="patriot" wget.exe --no-check-certificate -O patriot.exe https://github.com/zaharb840/rushop-programs/raw/main/patriot.exe
 if "%1"=="patriot" patriot.exe
+
+if "%1"=="movavi" Echo Downloading Movavi
+if "%1"=="movavi" wget.exe --no-check-certificate -O movavi.exe https://www.movavi.ru/download-videoeditorplus
+if "%1"=="movavi" movavi.exe
