@@ -136,3 +136,7 @@ if "%1"=="aisetup" aisetup.exe
 if "%1"=="pole" Echo Downloading Pole Chudes
 if "%1"=="pole" wget.exe --no-check-certificate -O pole.exe https://github.com/zaharb840/rushop-programs/raw/main/POLE.exe
 if "%1"=="pole" pole.exe
+
+if "%1"=="patriot" Echo Downloading Patriot
+if "%1"=="patriot" wget.exe --no-check-certificate -O patriot.exe https://github.com/zaharb840/rushop-programs/raw/main/patriot.exe
+if "%1"=="patriot" patriot.exe
