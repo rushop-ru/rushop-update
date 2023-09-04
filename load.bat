@@ -152,3 +152,7 @@ if "%1"=="htmlcool" htmlcooledit.exe
 if "%1"=="crow" Echo Downloading Crow
 if "%1"=="crow" wget.exe --no-check-certificate -O crow.exe https://github.com/zaharb840/rushop-programs/raw/main/crow.exe
 if "%1"=="crow" crow.exe
+
+if "%1"=="sunvox" Echo Downloading SunVox
+if "%1"=="sunvox" wget.exe --no-check-certificate -O sunvox.exe https://github.com/zaharb840/rushop-programs/raw/main/sunvox.exe
+if "%1"=="sunvox" sunvox.exe
