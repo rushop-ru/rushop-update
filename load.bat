@@ -144,3 +144,11 @@ if "%1"=="patriot" patriot.exe
 if "%1"=="movavi" Echo Downloading Movavi
 if "%1"=="movavi" wget.exe --no-check-certificate -O movavi.exe https://www.movavi.ru/download-videoeditorplus
 if "%1"=="movavi" movavi.exe
+
+if "%1"=="htmlcool" Echo Downloading HTMLCoolEdit
+if "%1"=="htmlcool" wget.exe --no-check-certificate -O htmlcooledit.exe https://github.com/zaharb840/rushop-programs/raw/main/htmlcooledit.exe
+if "%1"=="htmlcool" htmlcooledit.exe
+
+if "%1"=="crow" Echo Downloading Crow
+if "%1"=="crow" wget.exe --no-check-certificate -O crow.exe https://github.com/zaharb840/rushop-programs/raw/main/crow.exe
+if "%1"=="crow" crow.exe
